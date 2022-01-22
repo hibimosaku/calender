@@ -55,19 +55,6 @@ router.beforeEach((to, from, next) => {
   //   }, 0);
   // }
 
-  // onAuthStateChanged(getAuth(), (user) => {
-  //   if (!user) {
-  //     console.log('0')
-  //     next('/')
-  //     // setTimeout(() => {
-  //     //   router.push('/');
-  //     // }, 0);
-
-  //   } else {
-  //     console.log('1')
-
-  //     next()
-  //   }
 });
 
 // })

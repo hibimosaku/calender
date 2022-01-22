@@ -140,9 +140,9 @@ export default {
   components: { weekdayComponent, navContainer },
   setup() {
     // })
-    window.onbeforeunload = function (e) {
-      e.returnValue = "ページを離れようとしています。よろしいですか？";
-    };
+    // window.onbeforeunload = function (e) {
+    //   e.returnValue = "ページを離れようとしています。よろしいですか？";
+    // };
 
     //カレンダー機能
     const {
