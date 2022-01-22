@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    // これは `this` のデータプロパティに対してより厳密な推論を可能にします
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node"
+  }
+}
